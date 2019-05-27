@@ -72,4 +72,4 @@ function sleep(ms) {
 }
 
 //translate phrase in many languages
-//translate('hi how are you?');
+translate('hi how are you?');
