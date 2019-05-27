@@ -6,7 +6,13 @@
 
 #### This function is great to tweak if you need to create a config file to support multiple langugages for your video games
 
-Before you run this file you have to install 4 dependencies
+When you run this file don't tweak the sleep duration. The reason is to prevent google from blocking us so we don't make too many requests.
+
+```javascript
+const sleepDuration = 5000;
+```
+
+In order to run this script you have to install 4 dependencies
 
 ```
 //we want to make synchronous requests
@@ -29,7 +35,7 @@ npm i iso-639-1
 ```
 
 ```javascript
-//translate phrase in multiple languages in .js file to test
+//in our index.js file we call translate which will convert to multiple languages
 translate('hi how are you?');
 ```
 
