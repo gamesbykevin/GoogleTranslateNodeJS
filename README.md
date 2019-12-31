@@ -6,7 +6,7 @@
 
 #### This function is great to tweak if you need to create a config file to support multiple langugages for your video games
 
-When you run this file don't tweak the sleep duration. The reason is to prevent google from blocking us so we don't make too many requests.
+When you run this file you might need to increase the sleep duration. This variable is to prevent google from blocking us so we don't make too many requests in a short amount of time.
 
 ```javascript
 const sleepDuration = 5000;
